@@ -1,0 +1,14 @@
+/* 由 packages/lively/sync_lively.py 產生，請勿手改（改 apps.json 再重跑）。
+   924_english2000-practice｜主題色相來源 #5B6B8C｜engine=grammar｜level=full */
+:root{--lv-engine:grammar;--lv-level:full}
+html:not([data-theme="dark"]),html:not([data-theme="dark"]) body{
+  --lv-btn:#94AAD6;--lv-btn-d:#6783BB;--lv-ink:#213763;--lv-acc:#4265AE;
+  --lv-soft:#E8EDF7;--lv-soft2:#CED7E8;
+}
+html[data-theme="dark"],html[data-theme="dark"] body{
+  --lv-btn:#94AAD6;--lv-btn-d:#6783BB;--lv-ink:#213763;--lv-acc:#819BCF;
+  --lv-soft:#252E41;--lv-soft2:#374562;
+}
+@media (prefers-color-scheme:dark){html:not([data-theme]),html:not([data-theme]) body{
+  --lv-acc:#819BCF;--lv-soft:#252E41;--lv-soft2:#374562;
+}}
